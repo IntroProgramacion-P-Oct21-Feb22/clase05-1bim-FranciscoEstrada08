@@ -28,7 +28,8 @@ public class Ejemplo02 {
         
         System.out.println("Ingrese la población del país");
         extension = entrada.nextDouble();
-        
+        entrada.nextLine(); //Limpieza del buffer-Cuando se pide un dato numerico
+        //siempre y cuando lo siguitente que se quiera pedir sea una cadena
         System.out.println("Ingrese nombre del país");
         nombrePais = entrada.nextLine();
                 

@@ -32,6 +32,8 @@ public class Ejemplo01 {
         System.out.println("Ingrese la población del país");
         extension = entrada.nextDouble();
         
+        entrada.nextLine(); //Limpieza del buffer
+        
         System.out.println("Ingrese capital del país");
         capitalPais = entrada.nextLine();
         
